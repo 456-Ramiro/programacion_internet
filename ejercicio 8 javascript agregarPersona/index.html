@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ejercico 8</title>	
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+</head>
+<body>
+	<div id="centrado">
+		<h1>Agregar persona</h1>
+		<form>
+		<label >Nombre(s) </label>
+			<input id="nombre" type="text" size="20" class="floatLeft">
+			
+		<label>Apellido(s)</label>
+			<input id="apellido" type="text" size="20" class="floatLeft">
+		<label>Edad</label>
+			<select id="agregarEdad" class="floatLeft"></select>	
+			<label>Correo electronico</label>
+			<input id="correo" type="text" class="floatLeft">
+			<label>Telefono</label>
+			<input id="telefono" type="text" class="floatLeft">	
+			<label>Direccion</label>
+			<input id="direccion" type="text" class="floatLeft">
+			<label>Codigo postal</label>
+			<input id="codigopostal" type="text" class="floatLeft">		
+			<button id="btnGuardar"  type="button" class="floatLeft">Guardar</button>
+			<button id="btnActualizar"  type="button" class="floatLeft">Actualizar</button>
+		</form>
+		<br>
+		<br>
+		<br>
+		<h1>Lista de personas</h1>
+		<!--
+		<table id="mitabla">
+            <caption>Tabla de Personas</caption>
+            <thead>
+                <tr>
+                    <th>Nombre(s)</th>
+                    <th>Apellido(s)</th>
+                    <th>Edad</th>
+                    <th>Acciones</th>
+                </tr>
+            </thead>
+            <tbody id="tablabody">
+            </tbody>
+        </table>-->
+        <div id="vistaPersonas"></div>
+	</div>
+	<script type="text/javascript" src="js/persona.js"></script>
+	<script type="text/javascript" src="js/app2.js"></script>
+</body>
+</html>
